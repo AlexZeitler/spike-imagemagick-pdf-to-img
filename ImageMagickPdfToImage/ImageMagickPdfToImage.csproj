@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="11.2.0" />
+    <PackageReference Include="Magick.NET.Core" Version="11.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="in" />
+    <Folder Include="out" />
+  </ItemGroup>
+
 </Project>
